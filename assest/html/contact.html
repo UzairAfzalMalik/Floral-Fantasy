@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Flower Website Design Tutorials</title>
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--custom css file link-->
+    <link rel="stylesheet" href="../css/cont.css">
+    <style>
+        select {
+            width: 100px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!--Header section starts-->
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#">
+            <img src="../img/remove logo.png" alt="logo" width="70">
+        </a>
+        <nav class="navbar">
+            <a href="../../index.html">Home</a>
+            <a href="../html/product.html">Products</a>
+            <select name="mydropdown" id="mydropdown" onchange="navigateToPage()">
+                <option value="events">Events</option>
+                <option value="wedding">Wedding</option>
+                <option value="aniversiry">Aniversiry</option>
+                <option value="birthday">Birthday</option>
+                <option value="party flower">Party Flower</option>
+                <option value="baby shawer Flower">Baby Shawer Flower</option>
+                <option value="bridal shawerr">Birdal Shawer</option>
+            </select>
+            <a href="../../index.html">Jewellery</a>
+            <a href="../html/about.html">About us</a>
+            <a href="./contact.html">contact Us</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!--Header section ends-->
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> Us</h1>
+        <div class="row">
+            <form action="">
+                <input type="text" class="box" placeholder="Name">
+                <input type="email" class="box" placeholder="Email">
+                <input type="number" class="box" placeholder="Number">
+                <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <br><br>
+                <input type="submit" value="send massage" class="btn">
+            </form>
+            <div class="image">
+                <img src="../img/contact-img.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--contact section ends-->
+
+
+    <!--footer section starts-->
+    <section class="footer">
+        <div class="A-container">
+            <div class="A">
+                <h3>quick links</h3>
+                <a href="../../index.html">Home</a>
+                <a href="../html/product.html">products</a>
+                <a href="../html/baby.html">Events</a>
+                <a href="../../index.html">jewellery</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="A">
+                <h3>Extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorites</a>
+            </div>
+            <div class="A">
+                <h3>Locations</h3>
+                <a href="#">Islamabad</a>
+                <a href="#">Lahore</a>
+                <a href="#">Karachi</a>
+                <a href="#">Mirpur khas</a>
+                <a href="#">Quetta</a>
+            </div>
+
+            <div class="A">
+                <h3>contact info</h3>
+                <a href="#">+92-0000-778-2</a>
+            </div>
+        </div>
+        <div class="credit">
+            &copy; Created by <span> Uzair , Uzair Malik ,Mubashir [Make A Team]</span> All Right Reserved.
+        </div>
+    </section>
+    <!--footer section ends-->
+
+    <script src="../js/dropdown.js"></script>
+</body>
+
+</html>
